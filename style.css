@@ -1,0 +1,27 @@
+#myProgress {
+    width: 100%;
+    background-color: whitesmoke;
+    
+  }
+  body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 2vw;
+    padding-top: 2vh;
+    background-color: #193925;
+    color:white;
+    padding-right: 2vw;
+  }
+  #myBar1,#myBar2,#myBar3, #myBar4 {
+    width: 1%;
+    height: 30px;
+    background-color: #c3663f;
+  }
+  #myProgress{
+    background-color: #e1deda;
+  }
+  #prozentNummer1,#prozentNummer2,#prozentNummer3, #prozentNummer4{
+    padding-top: 0.6vh;
+    color:rgb(39, 38, 43);
+    font-weight: bolder;
+    padding-left: 1vw;
+  }
