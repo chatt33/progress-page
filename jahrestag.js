@@ -38,14 +38,14 @@ const daysTogether3 = 365 - daysLeft3;
 document.getElementById("zeit3").textContent = "Wir sind schon " + daysTogether3  + " Tage zusammen, das heißt nur noch " + daysLeft3 + " Tage bis zum 1.Jahrestag!";
 
 document.getElementById("prozentNummer3").textContent = prozentBisher2.toFixed(4) + "%";
-
+move();
 
 function move() {
-    var elem = document.getElementById("myBar1");
+    var elem = document.getElementById("myBar3");
     var width = 1;
     setInterval(frame, 20);
     function frame() {
-      if (width < prozentBisher3) {
+      if (width < prozentBisher2) {
         width = width + 0.5;
         elem.style.width = width + "%";
       } 

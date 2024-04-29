@@ -38,10 +38,10 @@ const daysLeft2 = (remainingTime / (24 * 60 * 60 * 1000)).toFixed(2);
 document.getElementById("zeit2").textContent = "Nur noch " + daysLeft2 + " Tage!";
 
 document.getElementById("prozentNummer2").textContent = prozentBisher3.toFixed(4) + "%";
-
+move();
 
 function move() {
-    var elem = document.getElementById("myBar1");
+    var elem = document.getElementById("myBar2");
     var width = 1;
     setInterval(frame, 20);
     function frame() {

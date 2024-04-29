@@ -37,10 +37,10 @@ const daysLeft4 = (remainingTime / (24 * 60 * 60 * 1000)).toFixed(2);
 document.getElementById("zeit4").textContent = "Nur noch so ungefähr " + daysLeft4 + " Tage!";
 
 document.getElementById("prozentNummer4").textContent = prozentBisher4.toFixed(4) + "%";
-
+move();
 
 function move() {
-    var elem = document.getElementById("myBar1");
+    var elem = document.getElementById("myBar4");
     var width = 1;
     setInterval(frame, 20);
     function frame() {
