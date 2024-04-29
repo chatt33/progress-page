@@ -25,34 +25,28 @@ var remainingTime = Number(meetingDate4 - now4);
 
 
 var berechnung = waitingTime / alreadyWaitedTime;
-var prozentBisher = 100.0 / berechnung;
-console.log("prozent: " + prozentBisher);
+var prozentBisher4 = 100.0 / berechnung;
+console.log("prozent: " + prozentBisher4);
 
 
 var elem = document.getElementById("myBar4");
 console.log(now4);
-elem.style.width = (prozentBisher+1) + "%";
+elem.style.width = (prozentBisher4+1) + "%";
 
 const daysLeft4 = (remainingTime / (24 * 60 * 60 * 1000)).toFixed(2);
 document.getElementById("zeit4").textContent = "Nur noch so ungefähr " + daysLeft4 + " Tage!";
 
-document.getElementById("prozentNummer4").textContent = prozentBisher.toFixed(4) + "%";
+document.getElementById("prozentNummer4").textContent = prozentBisher4.toFixed(4) + "%";
 
 
-// function move() {
-//   if (i == 0) {
-//     i = 1;
-//     var elem = document.getElementById("myBar");
-//     var width = 1;
-//     var id = setInterval(frame, 10);
-//     function frame() {
-//       if (width >= 100) {
-//         clearInterval(id);
-//         i = 0;
-//       } else {
-//         width++;
-//         elem.style.width = width + "%";
-//       }
-//     }
-//   }
-// }
+function move() {
+    var elem = document.getElementById("myBar1");
+    var width = 1;
+    setInterval(frame, 20);
+    function frame() {
+      if (width < prozentBisher4) {
+        width = width + 0.5;
+        elem.style.width = width + "%";
+      } 
+    }
+}
