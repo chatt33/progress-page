@@ -1,7 +1,7 @@
 var i = 10;
 //beginn
 var year = 2024;
-var month = 5; // Note: January is 0, February is 1, ..., December is 11
+var month = 6; // Note: January is 0, February is 1, ..., December is 11
 var day = 23;
 var hour = 10; // 24-hour format
 var minute = 0;
@@ -11,7 +11,7 @@ const now = new Date();
 const lastDate = new Date(year, month, day, hour, minute, second);
 //nächstes treffen
 year = 2024;
-month = 6; // Note: January is 0, February is 1, ..., December is 11
+month = 7; // Note: January is 0, February is 1, ..., December is 11
 day = 04;
 hour = 22; // 24-hour format
 minute = 0;
