@@ -10,9 +10,9 @@ var second = 0;
 const now2 = new Date();
 const lastDate2 = new Date(year, month, day, hour, minute, second);
 
-year = 2024;
-month = 11; // Note: January is 0, February is 1, ..., December is 11
-day = 28;
+year = 2025;
+month = 07; // Note: January is 0, February is 1, ..., December is 11
+day = 01;
 hour = 12; // 24-hour format
 minute = 0;
 second = 0;
