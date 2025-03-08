@@ -8,8 +8,9 @@ var minute = 0;
 var second = 0;
 
 const now = new Date();
-const lastDate = new Date(year, month, day, hour, minute, second);
-lastDate = new Date();
+const lastDate = new Date();
+//const lastDate = new Date(year, month, day, hour, minute, second);
+
 //nächstes treffen
 year = 2024;
 month = 11; // Note: January is 0, February is 1, ..., December is 11
