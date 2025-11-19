@@ -8,8 +8,8 @@ var minute = 0;
 var second = 0;
 
 const now = new Date();
-const lastDate = new Date();
-//const lastDate = new Date(year, month, day, hour, minute, second);
+//const lastDate = new Date();
+const lastDate = new Date(year, month, day, hour, minute, second);
 
 //nächstes treffen
 year = 2025;
