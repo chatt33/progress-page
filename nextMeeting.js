@@ -12,11 +12,11 @@ const lastDate = new Date();
 //const lastDate = new Date(year, month, day, hour, minute, second);
 
 //nächstes treffen
-year = 2024;
+year = 2025;
 month = 11; // Note: January is 0, February is 1, ..., December is 11
-day = 19;
-hour = 22; // 24-hour format
-minute = 0;
+day = 12;
+hour = 13; // 24-hour format
+minute = 30;
 second = 0;
 
 const meetingDate = new Date(year, month, day, hour, minute, second);
