@@ -13,9 +13,9 @@ const lastDate = new Date();
 
 //nächstes treffen
 year = 2025;
-month = 11; // Note: January is 0, February is 1, ..., December is 11
-day = 12;
-hour = 13; // 24-hour format
+month = 10; // Note: January is 0, February is 1, ..., December is 11
+day = 27;
+hour = 20; // 24-hour format
 minute = 30;
 second = 0;
 
