@@ -10,7 +10,7 @@ var second = 0;
 const now3 = new Date();
 const lastDate3 = new Date(year, month, day, hour, minute, second);
 
-year = 2025;
+year = 2026;
 month = 8; // Note: January is 0, February is 1, ..., December is 11
 day = 9;
 hour = 0; // 24-hour format
@@ -34,7 +34,7 @@ console.log(now3);
 elem.style.width = prozentBisher2 + "%";
 
 const daysLeft3 = (remainingTime / (24 * 60 * 60 * 1000)).toFixed(2);
-var daysTogether3 = Number(365 + Number(daysLeft3)); 
+var daysTogether3 = Number(365*2 + Number(daysLeft3)); 
 document.getElementById("zeit3").textContent = "Wir sind schon " + daysTogether3  + " Tage zusammen, das heißt nur noch " + daysLeft3 + " Tage bis zum 2.Jahrestag!";
 
 document.getElementById("prozentNummer3").textContent = prozentBisher2.toFixed(4) + "%";
