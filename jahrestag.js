@@ -35,7 +35,7 @@ elem.style.width = prozentBisher2 + "%";
 
 const daysLeft3 = (remainingTime / (24 * 60 * 60 * 1000)).toFixed(2);
 var daysTogether3 = Number(365*2 + Number(daysLeft3)); 
-document.getElementById("zeit3").textContent = "Wir sind schon " + daysTogether3  + " Tage zusammen, das heißt nur noch " + daysLeft3 + " Tage bis zum 2.Jahrestag!";
+document.getElementById("zeit3").textContent = "Wir sind schon " + daysTogether3  + " Tage zusammen, das heißt nur noch " + daysLeft3 + " Tage bis zum 3.Jahrestag!";
 
 document.getElementById("prozentNummer3").textContent = prozentBisher2.toFixed(4) + "%";
 move();
